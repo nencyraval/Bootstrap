@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .wrapper {
+            padding: 10px;
+            margin-bottom: 20px;
+            background: #dbdfe5;
+        }
+
+        /* Apply all element which has "float" class applied */
+        [class^="float"] {
+            font-size: 18px;
+            padding: 20px;
+            background: #abb1b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="m-4">
+        <div class="wrapper clearfix">
+            <div class="float-start">.float-start</div>
+        </div>
+        <div class="wrapper clearfix">
+            <div class="float-end">float-end</div>
+        </div>
+        <div class="wrapper clearfix">
+            <div class="float-start">float-start</div>
+            <div class="float-end">float-end</div>
+        </div>
+        <div class="wrapper clearfix">
+            <div class="float-none" style="float: right;">float-none</div>
+        </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

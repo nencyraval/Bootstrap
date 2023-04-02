@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .demo-content {
+            padding: 15px;
+            font-size: 18px;
+            min-height: 50px;
+            background: #089d35;
+            margin-bottom: 15px;
+        }
+
+        .demo-content.bg-alt {
+            background: #0b72e9;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="text-center">column with gutters</h2>
+    <div class="container mt-3">
+        <div class="row">
+        <div class="col-4">
+            <div class="demo-content">.col-4</div>
+        </div>
+        <div class="col-4">
+            <div class="demo-content bg-alt">.col-4</div>
+        </div>
+        <div class="col-4">
+            <div class="demo-content">.col-4</div>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <h2 class="text-center">column without gutters</h2>
+    <div class="containermt-3">
+        <div class="row g-0">
+            <div class="col-4">
+                <div class="demo-content">.col-4</div>
+            </div>
+            <div class="col-4">
+                <div class="demo-content bg-alt">.col-4</div>
+            </div>
+            <div class="col-4">
+                <div class="demo-content">.col-4</div>
+            </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
